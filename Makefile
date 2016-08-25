@@ -1,7 +1,6 @@
 LOCAL=$(HOME)/.gcin/
 
-test:
-	echo $(LOCAL)/tsin32
+all: init install clean	
 
 init:
 	cp tsin.src packed.src
